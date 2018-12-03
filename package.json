@@ -1,0 +1,46 @@
+{
+  "name": "server_side",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.10.1",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "dva": "^2.4.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "formidable": "^1.2.1",
+    "gm": "^1.23.1",
+    "immutable": "^3.8.2",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.4",
+    "prop-types": "^15.6.2",
+    "querystring": "^0.2.0",
+    "ramda": "^0.25.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-draggable-tags": "^0.2.1",
+    "react-tag-input": "^5.2.3",
+    "redux-logger": "^3.0.6",
+    "socket.io": "^2.1.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-import": "^1.10.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1"
+  }
+}

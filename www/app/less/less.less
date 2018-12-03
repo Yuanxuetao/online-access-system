@@ -1,0 +1,148 @@
+.h10{
+    height:10px;
+}
+.h14{
+    height:14px;
+}
+.h30{
+    height:30px;
+}
+.ant-row{
+    height:36px !important;
+}
+.ant-tag{
+    margin-bottom:10px;
+}
+.Simple {
+  border: 1px solid #E9E9E9;
+  border-radius: 4px;
+  width: 294px;
+  height: 220px;
+  padding: 5px;
+}
+.tag {
+  margin: 3px;
+  font-size: 13px;
+  border: 1px dashed #cccccc;
+  border-radius: 4px;
+  padding: 0 8px;
+  line-height: 30px;
+  color: #666666;
+  background: rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+.deljiao{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+ 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+@during : 90s;
+.t{
+    position: absolute;
+    height:0px;
+    width:5000px;
+    border-top:2px dotted white;
+    top:0;
+    left:0;
+    animation:t @during linear 0s infinite;
+}
+.r{
+    position: absolute;
+    width:0px;
+    height:5000px;
+    border-right:2px dotted white;
+    top:0;
+    right:0;
+    animation:r @during linear 0s infinite;
+}
+.b{
+    position: absolute;
+    height:0px;
+    width:5000px;
+    border-bottom:2px dotted white;
+    bottom:0;
+    left:0;
+    animation:b @during linear 0s infinite;
+}
+.l{
+    position: absolute;
+    width:0px;
+    height:5000px;
+    border-left:2px dotted white;
+    top:0;
+    left:0;
+    animation:l @during linear 0s infinite;
+}
+@keyframes t{
+    from {
+        left : 0;
+    }
+    to {
+        left : -2500px;
+    }
+}
+@keyframes l{
+    from {
+        top : -2500px;
+    }
+    to {
+        top : 0;
+    }
+}
+@keyframes b{
+    from {
+        left : -2500px;
+    }
+    to {
+        left : 0;
+    }
+}
+@keyframes r{
+    from {
+        top : 0px;
+    }
+    to {
+        top : -2500px;
+    }
+}
+
+.logo{
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+.rightbox{
+    float: right;
+    color:white;
+}
+
+.ant-drawer-right.ant-drawer-open .ant-drawer-content-wrapper{
+    z-index:999999;
+}
+.ant-popover{
+    z-index: 2 !important;
+}
+.cl{
+    clear: both;
+}
+.piao{
+    position: fixed;
+    bottom:0;
+    right:0;
+    width:300px;
+    height:300px;
+    border:2px solid red;
+    background:white;
+}
